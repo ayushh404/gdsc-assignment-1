@@ -5,6 +5,7 @@
 
 body{
     font-family: roboto;
+    overflow:hidden;
 }
 
 .main{
@@ -89,7 +90,7 @@ body{
     align-items: center;
     justify-content: space-around;
     position: absolute;
-    bottom:0;
+    bottom:-100px;
     width: 100%;
     z-index:1;
 }
